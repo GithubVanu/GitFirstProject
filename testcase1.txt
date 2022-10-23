@@ -1,0 +1,4 @@
+This is test case 1
+.
+This is for begginners 
+java and test ng framework
