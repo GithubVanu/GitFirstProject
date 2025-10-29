@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="tests" name="Failed suite [ParallelSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="1" parallel="classes" name="Visitor Admin(failed)">
+    <groups>
+      <run>
+        <include name="regression"/>
+        <include name="regression"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.centralvista.test.VisitorAdmin.VisitorCasualPassTest">
+        <methods>
+          <include name="issuing_authority_logout"/>
+          <include name="casualpass_verifyreqatIA"/>
+          <include name="rec_authority_logout"/>
+          <include name="app_authority_logout"/>
+          <include name="casualpass_visitorrequest"/>
+          <include name="setUpAndSwitchRole"/>
+          <include name="casualpass_verifyrequ"/>
+          <include name="casualpass_fortoissuer"/>
+          <include name="casualpass_fortoapprover"/>
+          <include name="casualpass_verifyreq"/>
+          <include name="valid_registration"/>
+        </methods>
+      </class> <!-- com.centralvista.test.VisitorAdmin.VisitorCasualPassTest -->
+      <class name="com.centralvista.test.VisitorAdmin.VisitorRegistrationTest">
+        <methods>
+          <include name="valid_registrationonlyman"/>
+          <include name="visitor_list"/>
+          <include name="setUpAndSwitchRole"/>
+          <include name="existing_i_registration"/>
+          <include name="valid_registration"/>
+          <include name="existing_mobile_registration"/>
+          <include name="visitor_verifyinfo"/>
+          <include name="existing_email_registration"/>
+        </methods>
+      </class> <!-- com.centralvista.test.VisitorAdmin.VisitorRegistrationTest -->
+    </classes>
+  </test> <!-- Visitor Admin(failed) -->
+</suite> <!-- Failed suite [ParallelSuite] -->

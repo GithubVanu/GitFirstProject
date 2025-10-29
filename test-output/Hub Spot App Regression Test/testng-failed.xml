@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" parallel="methods"
+	name="Failed suite [Hub Spot App Regression Test]"
+	guice-stage="DEVELOPMENT">
+	<test parallel="methods" name="hub spot regression Test(failed)">
+		<classes>
+			<class name="com.centralvista.test.LSEmpDashBoardTest">
+				<methods>
+					<include name="addNewEmployee" />
+					<include name="setUp" />
+				</methods>
+			</class> <!-- com.centralvista.test.LSEmpDashBoardTest -->
+		</classes>
+	</test> <!-- hub spot regression Test(failed) -->
+</suite> <!-- Failed suite [Hub Spot App Regression Test] -->

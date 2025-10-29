@@ -1,0 +1,36 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="ParallelSuite" parallel="tests" thread-count="1">
+
+    <!-- Group 1 -->
+    <!---->
+    <!-- Group 2 -->
+     <test name="Visitor Admin" parallel="classes" thread-count="1">
+        <groups>
+            <run>
+               
+                <include name="regression"/>
+                <include name="regression"/> 
+            </run>
+        </groups>
+        <classes>
+           <class name="com.centralvista.test.VisitorAdmin.VisitorRegistrationTest" />
+            <class name="com.centralvista.test.VisitorAdmin.VisitorCasualPassTest" />
+        </classes>
+    </test>
+    
+    
+  <!--   <test name="Allied General" parallel="classes" thread-count="1">
+        <groups>
+            <run>
+               
+                <include name="regression"/>
+              
+            </run>
+        </groups>
+        <classes>
+            <class name="com.centralvista.test.Alliedgenerallstest"/>
+           
+        </classes>
+    </test> -->
+</suite>
+	

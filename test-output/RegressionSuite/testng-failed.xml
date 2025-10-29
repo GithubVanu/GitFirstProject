@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [RegressionSuite]">
+	<test thread-count="5" name="LoginTest(failed)">
+		<groups>
+			<run>
+				<include name="sanity" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.centralvista.test.Ministrymembertest">
+				<methods>
+					<include name="minis_mem_list" />
+					<include name="valid_registration" />
+					<include name="minis_mem_verifyinfo" />
+				</methods>
+			</class> <!-- com.centralvista.test.Ministrymembertest -->
+			<class name="com.centralvista.test.LoginTest">
+				<methods>
+					<include name="getLoginWithValidUserNamePassword" />
+				</methods>
+			</class> <!-- com.centralvista.test.LoginTest -->
+		</classes>
+	</test> <!-- LoginTest(failed) -->
+</suite> <!-- Failed suite [RegressionSuite] -->

@@ -1,8 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<suite parallel="false" name="Suite">
-  <test name="Test">
-    <classes>
-      <class name="test.Login"/>
-    </classes>
-  </test> <!-- Test -->
+<suite parallel="false" name="RegressionSuite">
+	<test name="LoginTest">
+		<classes>
+			<!-- <class name="com.centralvista.test.LoginTest"/> -->
+
+			<!-- <class name="com.centralvista.test.EmpHomePageTest"/> -->
+
+			<!-- <class name="com.centralvista.test.LSEmpDashBoardTest"/> -->
+
+			<class name="com.centralvista.test.LSRetiredEmpDashBoardTest" />
+
+			<!-- <class name="com.centralvista.test.LSEmpDashBoardSearchExistingEmployeeTest"/> -->
+
+
+		</classes>
+	</test> <!-- Test -->
 </suite> <!-- Suite -->
