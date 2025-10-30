@@ -354,9 +354,9 @@ public class VisitorCasualPassTest extends TestBase {
 		WebDriverWait wait = new WebDriverWait(TestBase.getDriver(), Duration.ofSeconds(10));
 		WebElement roleDropdown = wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("userRole")));
 		new Select(roleDropdown).selectByValue("ISSUANCE");
-		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//span[normalize-space()='Recommended Visitors']")));
-		TestBase.getDriver().findElement(By.xpath("//span[normalize-space()='Recommended Visitors']")).click();
-		TestBase.getDriver().findElement(By.xpath("//span[normalize-space()='Casual Pass Request List']")).click();
+		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//span[normalize-space()='Visitor Request']")));
+		TestBase.getDriver().findElement(By.xpath("//span[normalize-space()='Visitor Request']")).click();
+		TestBase.getDriver().findElement(By.xpath("//span[normalize-space()='Approved visitor List']")).click();
 		int row1 = 18;
 		String searchValue = reader.getCellvalue(SHEET_NAME, row1, 0);
 		vpage.setSearchlist(searchValue);

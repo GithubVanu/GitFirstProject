@@ -6806,3 +6806,429 @@ Session ID: 946e85493f42e68e706724510f4945e2
 2025-10-29 16:30:39 [TestNG-test=Visitor Admin-1] INFO  com.centralvista.pages.VisitorAdmin.VisitorCasualPassPage - Verify that Recommene visitor is present in list
 2025-10-29 16:30:57 [TestNG-test=Visitor Admin-1] INFO  com.centralvista.pages.VisitorAdmin.VisitorCasualPassPage - Verify that request is forware to approver or not
 2025-10-29 16:31:34 [TestNG-test=Visitor Admin-1] INFO  com.centralvista.pages.VisitorAdmin.VisitorCasualPassPage - Verify that Recommene visitor is present in list
+2025-10-30 10:33:06 [TestNG-test-Ministry Member-1] INFO  com.centralvista.test.Ministrymembertest - Filling form for row: 1
+2025-10-30 10:33:12 [TestNG-test-Visitor Admin-1] INFO  com.centralvista.pages.VisitorAdmin.VisitorRegistrationPage - Filling form for row: 4
+2025-10-30 10:33:16 [TestNG-test-Ministry Member-1] INFO  com.centralvista.test.Ministrymembertest - Form filled successfully for row: 1
+2025-10-30 10:33:17 [TestNG-test-Visitor Admin-1] ERROR com.centralvista.pages.VisitorAdmin.VisitorRegistrationPage - ❌ Error at row 4: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=141.0.7390.107)
+Build info: version: '4.18.0', revision: 'b6bf9de7cc*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [341afc83fb4d9ddff1329bcfb1595d0c, findElement {value=(//input[@type='text'])[18], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.107, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\SUREND~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55009}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55009/devtoo..., se:cdpVersion: 141.0.7390.107, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 341afc83fb4d9ddff1329bcfb1595d0c
+org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=141.0.7390.107)
+Build info: version: '4.18.0', revision: 'b6bf9de7cc*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [341afc83fb4d9ddff1329bcfb1595d0c, findElement {value=(//input[@type='text'])[18], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.107, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\SUREND~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55009}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55009/devtoo..., se:cdpVersion: 141.0.7390.107, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 341afc83fb4d9ddff1329bcfb1595d0c
+	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167) ~[selenium-remote-driver-4.18.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138) ~[selenium-remote-driver-4.18.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50) ~[selenium-remote-driver-4.18.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190) ~[selenium-remote-driver-4.18.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216) ~[selenium-remote-driver-4.18.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174) ~[selenium-remote-driver-4.18.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519) ~[selenium-remote-driver-4.18.0.jar:?]
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165) ~[selenium-remote-driver-4.18.0.jar:?]
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59) ~[selenium-remote-driver-4.18.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356) ~[selenium-remote-driver-4.18.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350) ~[selenium-remote-driver-4.18.0.jar:?]
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68) ~[selenium-support-4.18.0.jar:?]
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38) ~[selenium-support-4.18.0.jar:?]
+	at jdk.proxy2.$Proxy31.click(Unknown Source) ~[?:?]
+	at com.centralvista.pages.VisitorAdmin.VisitorRegistrationPage.setCurrentState(VisitorRegistrationPage.java:223) ~[classes/:?]
+	at com.centralvista.test.VisitorAdmin.VisitorRegistrationTest.fillFormData(VisitorRegistrationTest.java:113) ~[test-classes/:?]
+	at com.centralvista.test.VisitorAdmin.VisitorRegistrationTest.existing_email_registration(VisitorRegistrationTest.java:210) ~[test-classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+2025-10-30 10:33:18 [TestNG-test-Visitor Admin-1] INFO  com.centralvista.pages.VisitorAdmin.VisitorRegistrationPage - Verify that registere member is present in visitor list or not
+2025-10-30 10:33:57 [TestNG-test-Ministry Member-1] INFO  com.centralvista.test.Ministrymembertest - Fascia uploaz starts
+2025-10-30 10:34:27 [TestNG-test-Ministry Member-1] INFO  com.centralvista.test.Ministrymembertest - Fascia uploaz starts
+2025-10-30 10:34:42 [TestNG-test-Ministry Member-1] INFO  com.centralvista.test.Ministrymembertest - icar request for ministry member starts
+2025-10-30 10:34:42 [TestNG-test-Ministry Member-1] INFO  com.centralvista.test.Ministrymembertest - verify icar request for ministry member starts
+2025-10-30 10:35:46 [TestNG-test=Ministry Member-1] INFO  com.centralvista.test.Ministrymembertest - Filling form for row: 1
+2025-10-30 10:35:51 [TestNG-test=Visitor Admin-1] INFO  com.centralvista.pages.VisitorAdmin.VisitorRegistrationPage - Filling form for row: 3
+2025-10-30 10:35:52 [TestNG-test=Visitor Admin-1] ERROR com.centralvista.pages.VisitorAdmin.VisitorRegistrationPage - ? Error at row 3: element click intercepted: Element <input aria-autocomplete="list" type="text" autocorrect="off" autocapitalize="off" autocomplete="ac824f34406e"> is not clickable at point (1483, 44). Other element would receive the click: <select _ngcontent-lle-c162="" name="userRole" id="userRole" class="form-control switchrole">...</select>
+  (Session info: chrome=141.0.7390.107)
+Build info: version: '4.18.0', revision: 'b6bf9de7cc*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c94e3823783606154966f6ec81f54e1b, clickElement {id=f.D0AAC6CCC2AD47D7071186802818F1A8.d.B12F4B92A0A1EA0E8F994C2D725F603B.e.58}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.107, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\SUREND~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55358}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55358/devtoo..., se:cdpVersion: 141.0.7390.107, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (c94e3823783606154966f6ec81f54e1b)] -> xpath: (//input[@type='text'])[3]]
+Session ID: c94e3823783606154966f6ec81f54e1b
+org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <input aria-autocomplete="list" type="text" autocorrect="off" autocapitalize="off" autocomplete="ac824f34406e"> is not clickable at point (1483, 44). Other element would receive the click: <select _ngcontent-lle-c162="" name="userRole" id="userRole" class="form-control switchrole">...</select>
+  (Session info: chrome=141.0.7390.107)
+Build info: version: '4.18.0', revision: 'b6bf9de7cc*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c94e3823783606154966f6ec81f54e1b, clickElement {id=f.D0AAC6CCC2AD47D7071186802818F1A8.d.B12F4B92A0A1EA0E8F994C2D725F603B.e.58}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.107, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\SUREND~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55358}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55358/devtoo..., se:cdpVersion: 141.0.7390.107, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (c94e3823783606154966f6ec81f54e1b)] -> xpath: (//input[@type='text'])[3]]
+Session ID: c94e3823783606154966f6ec81f54e1b
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:480) ~[?:?]
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167) ~[selenium-remote-driver-4.18.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138) ~[selenium-remote-driver-4.18.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50) ~[selenium-remote-driver-4.18.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190) ~[selenium-remote-driver-4.18.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216) ~[selenium-remote-driver-4.18.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174) ~[selenium-remote-driver-4.18.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519) ~[selenium-remote-driver-4.18.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223) ~[selenium-remote-driver-4.18.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76) ~[selenium-remote-driver-4.18.0.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51) ~[selenium-support-4.18.0.jar:?]
+	at jdk.proxy2.$Proxy28.click(Unknown Source) ~[?:?]
+	at com.centralvista.pages.VisitorAdmin.VisitorRegistrationPage.selectType(VisitorRegistrationPage.java:81) ~[classes/:?]
+	at com.centralvista.test.VisitorAdmin.VisitorRegistrationTest.fillFormData(VisitorRegistrationTest.java:96) [test-classes/:?]
+	at com.centralvista.test.VisitorAdmin.VisitorRegistrationTest.existing_i_registration(VisitorRegistrationTest.java:191) [test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133) [testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598) [testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173) [testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46) [testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824) [testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146) [testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146) [testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128) [testng-7.4.0.jar:7.4.0]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:842) [?:?]
+2025-10-30 10:35:52 [TestNG-test=Visitor Admin-1] INFO  com.centralvista.pages.VisitorAdmin.VisitorRegistrationPage - Filling form for row: 4
+2025-10-30 10:35:56 [TestNG-test=Ministry Member-1] INFO  com.centralvista.test.Ministrymembertest - Form filled successfully for row: 1
+2025-10-30 10:35:56 [TestNG-test=Ministry Member-1] INFO  com.centralvista.test.Ministrymembertest - Filling form for row: 2
+2025-10-30 10:36:00 [TestNG-test=Visitor Admin-1] INFO  com.centralvista.pages.VisitorAdmin.VisitorRegistrationPage - Form filled successfully for row: 4
+2025-10-30 10:36:04 [TestNG-test=Ministry Member-1] INFO  com.centralvista.test.Ministrymembertest - Form filled successfully for row: 2
+2025-10-30 10:36:14 [TestNG-test=Visitor Admin-1] INFO  com.centralvista.pages.VisitorAdmin.VisitorRegistrationPage - Filling form for row: 5
+2025-10-30 10:36:14 [TestNG-test=Ministry Member-1] INFO  com.centralvista.test.Ministrymembertest - Filling form for row: 3
+2025-10-30 10:36:20 [TestNG-test=Visitor Admin-1] INFO  com.centralvista.pages.VisitorAdmin.VisitorRegistrationPage - Form filled successfully for row: 5
+2025-10-30 10:36:22 [TestNG-test=Ministry Member-1] INFO  com.centralvista.test.Ministrymembertest - Form filled successfully for row: 3
+2025-10-30 10:36:31 [TestNG-test=Visitor Admin-1] INFO  com.centralvista.pages.VisitorAdmin.VisitorRegistrationPage - Verify that registere member is present in visitor list or not
+2025-10-30 10:36:33 [TestNG-test=Ministry Member-1] INFO  com.centralvista.test.Ministrymembertest - Filling form for row: 4
+2025-10-30 10:36:40 [TestNG-test=Ministry Member-1] INFO  com.centralvista.test.Ministrymembertest - Form filled successfully for row: 4
+2025-10-30 10:36:55 [TestNG-test=Visitor Admin-1] INFO  com.centralvista.pages.VisitorAdmin.VisitorCasualPassPage - Filling form for row: 18
+2025-10-30 10:36:59 [TestNG-test=Ministry Member-1] INFO  com.centralvista.test.Ministrymembertest - Fascia uploaz starts
+2025-10-30 10:37:03 [TestNG-test=Visitor Admin-1] INFO  com.centralvista.pages.VisitorAdmin.VisitorCasualPassPage - Form filled successfully for row: 18
+2025-10-30 10:37:10 [TestNG-test=Visitor Admin-1] INFO  com.centralvista.pages.VisitorAdmin.VisitorCasualPassPage - Verify that requested visitor is present in list
+2025-10-30 10:37:11 [TestNG-test=Ministry Member-1] INFO  com.centralvista.test.Ministrymembertest - Fascia uploaz starts
+2025-10-30 10:37:12 [TestNG-test=Visitor Admin-1] INFO  com.centralvista.pages.VisitorAdmin.VisitorCasualPassPage - Verify that request is forware to approver or not
+2025-10-30 10:37:21 [TestNG-test=Ministry Member-1] INFO  com.centralvista.test.Ministrymembertest - Fascia uploaz over
+2025-10-30 10:37:21 [TestNG-test=Ministry Member-1] INFO  com.centralvista.test.Ministrymembertest - icar request for ministry member starts
+2025-10-30 10:37:26 [TestNG-test=Visitor Admin-1] INFO  com.centralvista.pages.VisitorAdmin.VisitorCasualPassPage - Verify that Recommene visitor is present in list
+2025-10-30 10:37:39 [TestNG-test=Ministry Member-1] INFO  com.centralvista.test.Ministrymembertest - verify icar request for ministry member starts
+2025-10-30 10:37:44 [TestNG-test=Visitor Admin-1] INFO  com.centralvista.pages.VisitorAdmin.VisitorCasualPassPage - Verify that request is forware to approver or not
+2025-10-30 10:37:59 [TestNG-test=Ministry Member-1] INFO  com.centralvista.test.RAMinistryMemberTest - Verify that Request is Reach to the mention Arrive in Recommeing Authority
+2025-10-30 10:38:04 [TestNG-test=Visitor Admin-1] INFO  com.centralvista.pages.VisitorAdmin.VisitorCasualPassPage - Verify that Recommene visitor is present in list
+2025-10-30 10:38:09 [TestNG-test=Ministry Member-1] INFO  com.centralvista.test.RAMinistryMemberTest - Verify that Request is Reach to the mention Recommeing Authority
+2025-10-30 10:38:10 [TestNG-test=Ministry Member-1] INFO  com.centralvista.test.RAMinistryMemberTest - Verify that Request is Reach to the selected Authority
+2025-10-30 10:38:33 [TestNG-test=Ministry Member-1] INFO  com.centralvista.test.AAMinistrymemberTest - Verify that Request is arrive at Approving Autority.
+2025-10-30 10:39:14 [TestNG-test=Ministry Member-1] INFO  com.centralvista.test.AAMinistrymemberTest - Verify that Request is move to Ministry Member Request Status List in Approving Autority.
+2025-10-30 10:50:07 [TestNG-test=Ministry Member-1] INFO  com.centralvista.test.Ministrymembertest - Filling form for row: 1
+2025-10-30 10:50:12 [TestNG-test=Visitor Admin-1] INFO  com.centralvista.pages.VisitorAdmin.VisitorRegistrationPage - Filling form for row: 3
+2025-10-30 10:50:13 [TestNG-test=Visitor Admin-1] ERROR com.centralvista.pages.VisitorAdmin.VisitorRegistrationPage - ? Error at row 3: element click intercepted: Element <input aria-autocomplete="list" type="text" autocorrect="off" autocapitalize="off" autocomplete="ac4b01ad9bb5"> is not clickable at point (1483, 44). Other element would receive the click: <select _ngcontent-sym-c162="" name="userRole" id="userRole" class="form-control switchrole">...</select>
+  (Session info: chrome=141.0.7390.107)
+Build info: version: '4.18.0', revision: 'b6bf9de7cc*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8b15ef3030cc4759fbbae1ce2d20ecd8, clickElement {id=f.21CCD82674A35AF006F45E4761B1E7CF.d.F3B0C728B625526AC41ED2DFE24A7828.e.58}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.107, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\SUREND~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56365}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56365/devtoo..., se:cdpVersion: 141.0.7390.107, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (8b15ef3030cc4759fbbae1ce2d20ecd8)] -> xpath: (//input[@type='text'])[3]]
+Session ID: 8b15ef3030cc4759fbbae1ce2d20ecd8
+org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <input aria-autocomplete="list" type="text" autocorrect="off" autocapitalize="off" autocomplete="ac4b01ad9bb5"> is not clickable at point (1483, 44). Other element would receive the click: <select _ngcontent-sym-c162="" name="userRole" id="userRole" class="form-control switchrole">...</select>
+  (Session info: chrome=141.0.7390.107)
+Build info: version: '4.18.0', revision: 'b6bf9de7cc*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8b15ef3030cc4759fbbae1ce2d20ecd8, clickElement {id=f.21CCD82674A35AF006F45E4761B1E7CF.d.F3B0C728B625526AC41ED2DFE24A7828.e.58}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.107, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\SUREND~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56365}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56365/devtoo..., se:cdpVersion: 141.0.7390.107, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (8b15ef3030cc4759fbbae1ce2d20ecd8)] -> xpath: (//input[@type='text'])[3]]
+Session ID: 8b15ef3030cc4759fbbae1ce2d20ecd8
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:480) ~[?:?]
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167) ~[selenium-remote-driver-4.18.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138) ~[selenium-remote-driver-4.18.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50) ~[selenium-remote-driver-4.18.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190) ~[selenium-remote-driver-4.18.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216) ~[selenium-remote-driver-4.18.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174) ~[selenium-remote-driver-4.18.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519) ~[selenium-remote-driver-4.18.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223) ~[selenium-remote-driver-4.18.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76) ~[selenium-remote-driver-4.18.0.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51) ~[selenium-support-4.18.0.jar:?]
+	at jdk.proxy2.$Proxy28.click(Unknown Source) ~[?:?]
+	at com.centralvista.pages.VisitorAdmin.VisitorRegistrationPage.selectType(VisitorRegistrationPage.java:81) ~[classes/:?]
+	at com.centralvista.test.VisitorAdmin.VisitorRegistrationTest.fillFormData(VisitorRegistrationTest.java:96) [test-classes/:?]
+	at com.centralvista.test.VisitorAdmin.VisitorRegistrationTest.existing_i_registration(VisitorRegistrationTest.java:191) [test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133) [testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598) [testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173) [testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46) [testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824) [testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146) [testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146) [testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128) [testng-7.4.0.jar:7.4.0]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:842) [?:?]
+2025-10-30 10:50:13 [TestNG-test=Visitor Admin-1] INFO  com.centralvista.pages.VisitorAdmin.VisitorRegistrationPage - Filling form for row: 4
+2025-10-30 10:50:17 [TestNG-test=Ministry Member-1] INFO  com.centralvista.test.Ministrymembertest - Form filled successfully for row: 1
+2025-10-30 10:50:18 [TestNG-test=Ministry Member-1] INFO  com.centralvista.test.Ministrymembertest - Filling form for row: 2
+2025-10-30 10:50:22 [TestNG-test=Visitor Admin-1] INFO  com.centralvista.pages.VisitorAdmin.VisitorRegistrationPage - Form filled successfully for row: 4
+2025-10-30 10:50:25 [TestNG-test=Ministry Member-1] INFO  com.centralvista.test.Ministrymembertest - Form filled successfully for row: 2
+2025-10-30 10:50:35 [TestNG-test=Visitor Admin-1] INFO  com.centralvista.pages.VisitorAdmin.VisitorRegistrationPage - Filling form for row: 5
+2025-10-30 10:50:36 [TestNG-test=Ministry Member-1] INFO  com.centralvista.test.Ministrymembertest - Filling form for row: 3
+2025-10-30 10:50:42 [TestNG-test=Visitor Admin-1] INFO  com.centralvista.pages.VisitorAdmin.VisitorRegistrationPage - Form filled successfully for row: 5
+2025-10-30 10:50:43 [TestNG-test=Ministry Member-1] INFO  com.centralvista.test.Ministrymembertest - Form filled successfully for row: 3
+2025-10-30 10:50:52 [TestNG-test=Visitor Admin-1] INFO  com.centralvista.pages.VisitorAdmin.VisitorRegistrationPage - Verify that registere member is present in visitor list or not
+2025-10-30 10:50:54 [TestNG-test=Ministry Member-1] INFO  com.centralvista.test.Ministrymembertest - Filling form for row: 4
+2025-10-30 10:51:01 [TestNG-test=Ministry Member-1] INFO  com.centralvista.test.Ministrymembertest - Form filled successfully for row: 4
+2025-10-30 10:51:16 [TestNG-test=Visitor Admin-1] INFO  com.centralvista.pages.VisitorAdmin.VisitorCasualPassPage - Filling form for row: 18
+2025-10-30 10:51:21 [TestNG-test=Ministry Member-1] INFO  com.centralvista.test.Ministrymembertest - Fascia uploaz starts
+2025-10-30 10:51:24 [TestNG-test=Visitor Admin-1] INFO  com.centralvista.pages.VisitorAdmin.VisitorCasualPassPage - Form filled successfully for row: 18
+2025-10-30 10:51:31 [TestNG-test=Visitor Admin-1] INFO  com.centralvista.pages.VisitorAdmin.VisitorCasualPassPage - Verify that requested visitor is present in list
+2025-10-30 10:51:33 [TestNG-test=Visitor Admin-1] INFO  com.centralvista.pages.VisitorAdmin.VisitorCasualPassPage - Verify that request is forware to approver or not
+2025-10-30 10:51:33 [TestNG-test=Ministry Member-1] INFO  com.centralvista.test.Ministrymembertest - Fascia uploaz starts
+2025-10-30 10:51:43 [TestNG-test=Ministry Member-1] INFO  com.centralvista.test.Ministrymembertest - Fascia uploaz over
+2025-10-30 10:51:43 [TestNG-test=Ministry Member-1] INFO  com.centralvista.test.Ministrymembertest - icar request for ministry member starts
+2025-10-30 10:51:47 [TestNG-test=Visitor Admin-1] INFO  com.centralvista.pages.VisitorAdmin.VisitorCasualPassPage - Verify that Recommene visitor is present in list
+2025-10-30 10:52:01 [TestNG-test=Ministry Member-1] INFO  com.centralvista.test.Ministrymembertest - verify icar request for ministry member starts
+2025-10-30 10:52:06 [TestNG-test=Visitor Admin-1] INFO  com.centralvista.pages.VisitorAdmin.VisitorCasualPassPage - Verify that request is forware to approver or not
+2025-10-30 10:52:21 [TestNG-test=Ministry Member-1] INFO  com.centralvista.test.RAMinistryMemberTest - Verify that Request is Reach to the mention Arrive in Recommeing Authority
+2025-10-30 10:52:25 [TestNG-test=Visitor Admin-1] INFO  com.centralvista.pages.VisitorAdmin.VisitorCasualPassPage - Verify that Recommene visitor is present in list
+2025-10-30 10:52:32 [TestNG-test=Ministry Member-1] INFO  com.centralvista.test.RAMinistryMemberTest - Verify that Request is Reach to the mention Recommeing Authority
+2025-10-30 10:52:47 [TestNG-test=Ministry Member-1] INFO  com.centralvista.test.RAMinistryMemberTest - Verify that Request is Reach to the selected Authority
+2025-10-30 11:27:51 [TestNG-test-Visitor Admin-1] INFO  com.centralvista.pages.VisitorAdmin.VisitorRegistrationPage - Filling form for row: 3
+2025-10-30 11:27:53 [TestNG-test-Visitor Admin-1] ERROR com.centralvista.pages.VisitorAdmin.VisitorRegistrationPage - ❌ Error at row 3: element click intercepted: Element <input aria-autocomplete="list" type="text" autocorrect="off" autocapitalize="off" autocomplete="a841fc2d83a1"> is not clickable at point (1483, 44). Other element would receive the click: <select _ngcontent-kgt-c162="" name="userRole" id="userRole" class="form-control switchrole">...</select>
+  (Session info: chrome=141.0.7390.107)
+Build info: version: '4.18.0', revision: 'b6bf9de7cc*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [79e13ba71ee8f1ebe4544a74366772c2, clickElement {id=f.5F66096117F745B29ECE841F97358C11.d.98409C14F4E5FD37A6D55270C93D5746.e.59}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.107, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\SUREND~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59788}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59788/devtoo..., se:cdpVersion: 141.0.7390.107, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (79e13ba71ee8f1ebe4544a74366772c2)] -> xpath: (//input[@type='text'])[3]]
+Session ID: 79e13ba71ee8f1ebe4544a74366772c2
+org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <input aria-autocomplete="list" type="text" autocorrect="off" autocapitalize="off" autocomplete="a841fc2d83a1"> is not clickable at point (1483, 44). Other element would receive the click: <select _ngcontent-kgt-c162="" name="userRole" id="userRole" class="form-control switchrole">...</select>
+  (Session info: chrome=141.0.7390.107)
+Build info: version: '4.18.0', revision: 'b6bf9de7cc*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [79e13ba71ee8f1ebe4544a74366772c2, clickElement {id=f.5F66096117F745B29ECE841F97358C11.d.98409C14F4E5FD37A6D55270C93D5746.e.59}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.107, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\SUREND~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59788}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59788/devtoo..., se:cdpVersion: 141.0.7390.107, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (79e13ba71ee8f1ebe4544a74366772c2)] -> xpath: (//input[@type='text'])[3]]
+Session ID: 79e13ba71ee8f1ebe4544a74366772c2
+	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167) ~[selenium-remote-driver-4.18.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138) ~[selenium-remote-driver-4.18.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50) ~[selenium-remote-driver-4.18.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190) ~[selenium-remote-driver-4.18.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216) ~[selenium-remote-driver-4.18.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174) ~[selenium-remote-driver-4.18.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519) ~[selenium-remote-driver-4.18.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223) ~[selenium-remote-driver-4.18.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76) ~[selenium-remote-driver-4.18.0.jar:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51) ~[selenium-support-4.18.0.jar:?]
+	at jdk.proxy2.$Proxy30.click(Unknown Source) ~[?:?]
+	at com.centralvista.pages.VisitorAdmin.VisitorRegistrationPage.selectType(VisitorRegistrationPage.java:81) ~[classes/:?]
+	at com.centralvista.test.VisitorAdmin.VisitorRegistrationTest.fillFormData(VisitorRegistrationTest.java:96) ~[test-classes/:?]
+	at com.centralvista.test.VisitorAdmin.VisitorRegistrationTest.existing_i_registration(VisitorRegistrationTest.java:191) ~[test-classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+2025-10-30 11:27:53 [TestNG-test-Visitor Admin-1] INFO  com.centralvista.pages.VisitorAdmin.VisitorRegistrationPage - Filling form for row: 4
+2025-10-30 11:28:00 [TestNG-test-Visitor Admin-1] INFO  com.centralvista.pages.VisitorAdmin.VisitorRegistrationPage - Form filled successfully for row: 4
+2025-10-30 11:28:13 [TestNG-test-Visitor Admin-1] INFO  com.centralvista.pages.VisitorAdmin.VisitorRegistrationPage - Filling form for row: 5
+2025-10-30 11:28:19 [TestNG-test-Visitor Admin-1] INFO  com.centralvista.pages.VisitorAdmin.VisitorRegistrationPage - Form filled successfully for row: 5
+2025-10-30 11:28:30 [TestNG-test-Visitor Admin-1] INFO  com.centralvista.pages.VisitorAdmin.VisitorRegistrationPage - Verify that registere member is present in visitor list or not
+2025-10-30 11:28:53 [TestNG-test-Visitor Admin-1] INFO  com.centralvista.pages.VisitorAdmin.VisitorCasualPassPage - Filling form for row: 18
+2025-10-30 11:29:02 [TestNG-test-Visitor Admin-1] INFO  com.centralvista.pages.VisitorAdmin.VisitorCasualPassPage - Form filled successfully for row: 18
+2025-10-30 11:29:09 [TestNG-test-Visitor Admin-1] INFO  com.centralvista.pages.VisitorAdmin.VisitorCasualPassPage - Verify that requested visitor is present in list
+2025-10-30 11:29:11 [TestNG-test-Visitor Admin-1] INFO  com.centralvista.pages.VisitorAdmin.VisitorCasualPassPage - Verify that request is forware to approver or not
+2025-10-30 11:29:25 [TestNG-test-Visitor Admin-1] INFO  com.centralvista.pages.VisitorAdmin.VisitorCasualPassPage - Verify that Recommene visitor is present in list
+2025-10-30 11:29:43 [TestNG-test-Visitor Admin-1] INFO  com.centralvista.pages.VisitorAdmin.VisitorCasualPassPage - Verify that request is forware to approver or not
+2025-10-30 11:30:03 [TestNG-test-Visitor Admin-1] INFO  com.centralvista.pages.VisitorAdmin.VisitorCasualPassPage - Verify that Recommene visitor is present in list
+2025-10-30 11:40:08 [TestNG-test-Visitor Admin-1] INFO  com.centralvista.pages.VisitorAdmin.VisitorRegistrationPage - Filling form for row: 3
+2025-10-30 11:40:10 [TestNG-test-Visitor Admin-1] ERROR com.centralvista.pages.VisitorAdmin.VisitorRegistrationPage - ❌ Error at row 3: element click intercepted: Element <input aria-autocomplete="list" type="text" autocorrect="off" autocapitalize="off" autocomplete="a0030489c6b9"> is not clickable at point (1483, 44). Other element would receive the click: <select _ngcontent-nsp-c162="" name="userRole" id="userRole" class="form-control switchrole">...</select>
+  (Session info: chrome=141.0.7390.107)
+Build info: version: '4.18.0', revision: 'b6bf9de7cc*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0cf33502e51801b6f1ca0aa27f5bbc37, clickElement {id=f.1AA0B61CAD820E815CD641698DCB8152.d.6DBB7AF158DB663C268F9DC76BCE45B9.e.59}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.107, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\SUREND~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62324}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62324/devtoo..., se:cdpVersion: 141.0.7390.107, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (0cf33502e51801b6f1ca0aa27f5bbc37)] -> xpath: (//input[@type='text'])[3]]
+Session ID: 0cf33502e51801b6f1ca0aa27f5bbc37
+org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <input aria-autocomplete="list" type="text" autocorrect="off" autocapitalize="off" autocomplete="a0030489c6b9"> is not clickable at point (1483, 44). Other element would receive the click: <select _ngcontent-nsp-c162="" name="userRole" id="userRole" class="form-control switchrole">...</select>
+  (Session info: chrome=141.0.7390.107)
+Build info: version: '4.18.0', revision: 'b6bf9de7cc*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0cf33502e51801b6f1ca0aa27f5bbc37, clickElement {id=f.1AA0B61CAD820E815CD641698DCB8152.d.6DBB7AF158DB663C268F9DC76BCE45B9.e.59}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.107, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\SUREND~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62324}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62324/devtoo..., se:cdpVersion: 141.0.7390.107, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (0cf33502e51801b6f1ca0aa27f5bbc37)] -> xpath: (//input[@type='text'])[3]]
+Session ID: 0cf33502e51801b6f1ca0aa27f5bbc37
+	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167) ~[selenium-remote-driver-4.18.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138) ~[selenium-remote-driver-4.18.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50) ~[selenium-remote-driver-4.18.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190) ~[selenium-remote-driver-4.18.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216) ~[selenium-remote-driver-4.18.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174) ~[selenium-remote-driver-4.18.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519) ~[selenium-remote-driver-4.18.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223) ~[selenium-remote-driver-4.18.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76) ~[selenium-remote-driver-4.18.0.jar:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51) ~[selenium-support-4.18.0.jar:?]
+	at jdk.proxy2.$Proxy30.click(Unknown Source) ~[?:?]
+	at com.centralvista.pages.VisitorAdmin.VisitorRegistrationPage.selectType(VisitorRegistrationPage.java:81) ~[classes/:?]
+	at com.centralvista.test.VisitorAdmin.VisitorRegistrationTest.fillFormData(VisitorRegistrationTest.java:96) ~[test-classes/:?]
+	at com.centralvista.test.VisitorAdmin.VisitorRegistrationTest.existing_i_registration(VisitorRegistrationTest.java:191) ~[test-classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+2025-10-30 11:40:10 [TestNG-test-Visitor Admin-1] INFO  com.centralvista.pages.VisitorAdmin.VisitorRegistrationPage - Filling form for row: 4
+2025-10-30 11:40:11 [TestNG-test-Visitor Admin-1] ERROR com.centralvista.pages.VisitorAdmin.VisitorRegistrationPage - ❌ Error at row 4: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=141.0.7390.107)
+Build info: version: '4.18.0', revision: 'b6bf9de7cc*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0cf33502e51801b6f1ca0aa27f5bbc37, findElement {value=//input[@id='alternate_contact_number'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.107, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\SUREND~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62324}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62324/devtoo..., se:cdpVersion: 141.0.7390.107, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0cf33502e51801b6f1ca0aa27f5bbc37
+org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=141.0.7390.107)
+Build info: version: '4.18.0', revision: 'b6bf9de7cc*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0cf33502e51801b6f1ca0aa27f5bbc37, findElement {value=//input[@id='alternate_contact_number'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.107, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\SUREND~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62324}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62324/devtoo..., se:cdpVersion: 141.0.7390.107, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0cf33502e51801b6f1ca0aa27f5bbc37
+	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167) ~[selenium-remote-driver-4.18.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138) ~[selenium-remote-driver-4.18.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50) ~[selenium-remote-driver-4.18.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190) ~[selenium-remote-driver-4.18.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216) ~[selenium-remote-driver-4.18.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174) ~[selenium-remote-driver-4.18.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519) ~[selenium-remote-driver-4.18.0.jar:?]
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165) ~[selenium-remote-driver-4.18.0.jar:?]
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59) ~[selenium-remote-driver-4.18.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356) ~[selenium-remote-driver-4.18.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350) ~[selenium-remote-driver-4.18.0.jar:?]
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68) ~[selenium-support-4.18.0.jar:?]
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38) ~[selenium-support-4.18.0.jar:?]
+	at jdk.proxy2.$Proxy30.sendKeys(Unknown Source) ~[?:?]
+	at com.centralvista.pages.VisitorAdmin.VisitorRegistrationPage.setAltcontact(VisitorRegistrationPage.java:131) ~[classes/:?]
+	at com.centralvista.test.VisitorAdmin.VisitorRegistrationTest.fillFormData(VisitorRegistrationTest.java:102) ~[test-classes/:?]
+	at com.centralvista.test.VisitorAdmin.VisitorRegistrationTest.existing_email_registration(VisitorRegistrationTest.java:210) ~[test-classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+2025-10-30 11:40:11 [TestNG-test-Visitor Admin-1] INFO  com.centralvista.pages.VisitorAdmin.VisitorRegistrationPage - Verify that registere member is present in visitor list or not
+2025-10-30 12:06:01 [TestNG-test-Visitor Admin-1] INFO  com.centralvista.pages.VisitorAdmin.VisitorRegistrationPage - Filling form for row: 2
+2025-10-30 12:06:08 [TestNG-test-Visitor Admin-1] INFO  com.centralvista.pages.VisitorAdmin.VisitorRegistrationPage - Form filled successfully for row: 2
+2025-10-30 12:06:19 [TestNG-test-Visitor Admin-1] INFO  com.centralvista.pages.VisitorAdmin.VisitorRegistrationPage - Filling form for row: 3
+2025-10-30 12:06:25 [TestNG-test-Visitor Admin-1] INFO  com.centralvista.pages.VisitorAdmin.VisitorRegistrationPage - Form filled successfully for row: 3
+2025-10-30 12:06:36 [TestNG-test-Visitor Admin-1] INFO  com.centralvista.pages.VisitorAdmin.VisitorRegistrationPage - Filling form for row: 4
+2025-10-30 12:06:43 [TestNG-test-Visitor Admin-1] INFO  com.centralvista.pages.VisitorAdmin.VisitorRegistrationPage - Form filled successfully for row: 4
+2025-10-30 12:06:56 [TestNG-test-Visitor Admin-1] INFO  com.centralvista.pages.VisitorAdmin.VisitorRegistrationPage - Filling form for row: 5
+2025-10-30 12:07:02 [TestNG-test-Visitor Admin-1] INFO  com.centralvista.pages.VisitorAdmin.VisitorRegistrationPage - Form filled successfully for row: 5
+2025-10-30 12:07:13 [TestNG-test-Visitor Admin-1] INFO  com.centralvista.pages.VisitorAdmin.VisitorRegistrationPage - Verify that registere member is present in visitor list or not
+2025-10-30 12:07:36 [TestNG-test-Visitor Admin-1] INFO  com.centralvista.pages.VisitorAdmin.VisitorCasualPassPage - Filling form for row: 18
+2025-10-30 12:07:45 [TestNG-test-Visitor Admin-1] INFO  com.centralvista.pages.VisitorAdmin.VisitorCasualPassPage - Form filled successfully for row: 18
+2025-10-30 12:08:17 [TestNG-test-Visitor Admin-1] INFO  com.centralvista.pages.VisitorAdmin.VisitorCasualPassPage - Verify that requested visitor is present in list
+2025-10-30 12:08:33 [TestNG-test-Visitor Admin-1] INFO  com.centralvista.pages.VisitorAdmin.VisitorCasualPassPage - Verify that request is forware to approver or not
+2025-10-30 12:08:58 [TestNG-test-Visitor Admin-1] INFO  com.centralvista.pages.VisitorAdmin.VisitorCasualPassPage - Verify that Recommene visitor is present in list
+2025-10-30 12:09:16 [TestNG-test-Visitor Admin-1] INFO  com.centralvista.pages.VisitorAdmin.VisitorCasualPassPage - Verify that request is forware to approver or not
+2025-10-30 12:09:53 [TestNG-test-Visitor Admin-1] INFO  com.centralvista.pages.VisitorAdmin.VisitorCasualPassPage - Verify that Recommene visitor is present in list

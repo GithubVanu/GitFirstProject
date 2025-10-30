@@ -1,41 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite thread-count="1" parallel="tests" name="Failed suite [ParallelSuite]" guice-stage="DEVELOPMENT">
-  <test thread-count="1" parallel="classes" name="Visitor Admin(failed)">
+<suite thread-count="2" parallel="tests" name="Failed suite [ParallelSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="2" parallel="classes" name="Visitor Admin(failed)">
     <groups>
       <run>
-        <include name="regression"/>
         <include name="regression"/>
       </run>
     </groups>
     <classes>
+      <class name="com.centralvista.test.VisitorAdmin.VisitorRegistrationTest">
+        <methods>
+          <include name="setUpAndSwitchRole"/>
+          <include name="visitor_list"/>
+          <include name="valid_registrationonlyman"/>
+          <include name="valid_registration"/>
+          <include name="existing_i_registration"/>
+          <include name="minis_mem_logout"/>
+          <include name="existing_mobile_registration"/>
+          <include name="visitor_verifyinfo"/>
+          <include name="existing_email_registration"/>
+        </methods>
+      </class> <!-- com.centralvista.test.VisitorAdmin.VisitorRegistrationTest -->
       <class name="com.centralvista.test.VisitorAdmin.VisitorCasualPassTest">
         <methods>
+          <include name="visitor_admin_logout"/>
           <include name="issuing_authority_logout"/>
           <include name="casualpass_verifyreqatIA"/>
           <include name="rec_authority_logout"/>
           <include name="app_authority_logout"/>
-          <include name="casualpass_visitorrequest"/>
           <include name="setUpAndSwitchRole"/>
           <include name="casualpass_verifyrequ"/>
+          <include name="casualpass_visitorrequest"/>
           <include name="casualpass_fortoissuer"/>
           <include name="casualpass_fortoapprover"/>
           <include name="casualpass_verifyreq"/>
           <include name="valid_registration"/>
         </methods>
       </class> <!-- com.centralvista.test.VisitorAdmin.VisitorCasualPassTest -->
-      <class name="com.centralvista.test.VisitorAdmin.VisitorRegistrationTest">
-        <methods>
-          <include name="valid_registrationonlyman"/>
-          <include name="visitor_list"/>
-          <include name="setUpAndSwitchRole"/>
-          <include name="existing_i_registration"/>
-          <include name="valid_registration"/>
-          <include name="existing_mobile_registration"/>
-          <include name="visitor_verifyinfo"/>
-          <include name="existing_email_registration"/>
-        </methods>
-      </class> <!-- com.centralvista.test.VisitorAdmin.VisitorRegistrationTest -->
     </classes>
   </test> <!-- Visitor Admin(failed) -->
+  <test thread-count="2" parallel="classes" name="Ministry Member(failed)">
+    <groups>
+      <run>
+        <include name="regression"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.centralvista.test.Ministrymembertest">
+        <methods>
+          <include name="minis_mem_requestverify"/>
+          <include name="minis_mem_list"/>
+          <include name="minis_mem_uploadfascia"/>
+          <include name="invalid_registration_existingaadhaar"/>
+          <include name="minis_mem_logout"/>
+          <include name="invalid_registration_existingcontact"/>
+          <include name="minis_mem_requestcar"/>
+          <include name="minis_mem_uploadfasciainvalidname"/>
+          <include name="minis_mem_verifyinfo"/>
+          <include name="valid_registration"/>
+          <include name="invalid_registration_existingemail"/>
+          <include name="minis_mem_uploadfasciawithooufilling"/>
+          <include name="setUpAndSwitchRole"/>
+        </methods>
+      </class> <!-- com.centralvista.test.Ministrymembertest -->
+      <class name="com.centralvista.test.AAMinistrymemberTest">
+        <methods>
+          <include name="setUpAndSwitchRole"/>
+          <include name="minisMem_checkstatus"/>
+          <include name="minisMem_checkstatusIa"/>
+          <include name="iaminis_mem_logout"/>
+          <include name="app_auth_minis_mem_requestverify"/>
+          <include name="aaminis_mem_logout"/>
+          <include name="minisMem_forwartoissuer"/>
+          <include name="iaminis_mem_login"/>
+        </methods>
+      </class> <!-- com.centralvista.test.AAMinistrymemberTest -->
+      <class name="com.centralvista.test.RAMinistryMemberTest">
+        <methods>
+          <include name="setUpAndSwitchRole"/>
+          <include name="minisMem_forwartoApprover"/>
+          <include name="rec_auth_minis_mem_requestverify"/>
+          <include name="rec_auth_verifyMembervalues"/>
+          <include name="raminis_mem_logout"/>
+        </methods>
+      </class> <!-- com.centralvista.test.RAMinistryMemberTest -->
+    </classes>
+  </test> <!-- Ministry Member(failed) -->
 </suite> <!-- Failed suite [ParallelSuite] -->
